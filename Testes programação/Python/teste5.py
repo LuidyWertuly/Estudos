@@ -5,15 +5,15 @@ a = input("Insira sua Matricula: ")
 
 if n1 > n2 > n3:
 
-    m = ((n1 * 4) + (n2 * 3) + (n3 * 3)) / 3
+    m = ((n1 * 4) + (n2 * 3) + (n3 * 3)) / 10
 
 elif n2 > n1 > n3:
 
-    m = ((n2 * 4) + (n1 * 3) + (n3 * 3)) / 3
+    m = ((n2 * 4) + (n1 * 3) + (n3 * 3)) / 10
 
 else:
 
-    m = ((n3 * 4) + (n2 * 3) + (n1 * 3)) / 3
+    m = ((n3 * 4) + (n2 * 3) + (n1 * 3)) / 10
 
 if m >= 5:
     print("Aprovado")
