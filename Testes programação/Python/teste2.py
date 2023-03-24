@@ -14,4 +14,4 @@ ve = input("insira o nome do vendedor:")
 
 CO = 40 * p / 100
 
-print("você acaba de receber uma comissão de R$",CO)
+print("você acaba de receber uma comissão de R$", CO)
