@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Calculadora</title>
+    </head>
+    <body>
+        <script>
+            var numero1 = parseInt(prompt("Insira o Primeiro Número..."));
+
+            var operador = prompt("Informe o Sinal Da Sua Operação");
+
+            while(operador != "+" && operador != "-" && operador != "/" && operador != "*"){
+                alert("Insira Um Operador Válido!")
+                operador = prompt("Informe o Sinal Da Sua Operação")
+            };
+
+            var numero2 = parseInt(prompt("Insira o Segundo Número..."));
+
+            var resultado = 0
+
+            if(operador == "+"){
+                resultado = numero1 + numero2
+                alert("Seu Resultado é:" + resultado)
+            }
+
+            else if(operador == "-"){
+                resultado = numero1 - numero2
+                alert("Seu Resultado é:" + resultado)
+            }
+
+            else if(operador == "/"){
+                resultado = numero1 / numero2
+                alert("Seu Resultado é:" + resultado)
+            }
+
+            else if(operador == "*"){
+                resultado = numero1 * numero2
+                alert("Seu Resultado é:" + resultado)
+            }
+            else{
+                alert("Erro!!!")
+            }
+
+        </script>
+    </body>
+</html>
